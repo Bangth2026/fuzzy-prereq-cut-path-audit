@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite the paper below."
 title: "fuzzy-prereq-cut-path-audit: unit-robust cut audit and t-norm path analysis for log-derived fuzzy prerequisite graphs (code, results and run files)"
 version: 6.0.1
+doi: 10.5281/zenodo.24493167
 date-released: 2026-11-24
 repository-code: https://github.com/Bangth2026/fuzzy-prereq-cut-path-audit
 license: MIT

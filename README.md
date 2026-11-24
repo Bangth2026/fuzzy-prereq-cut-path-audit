@@ -4,7 +4,7 @@ Code, derived graphs, result files and reproduction scripts of one manuscript:
 
 > Hai Bang Truong. *Where to threshold and how to compose: a unit-robust cut audit and a t-norm path analysis for log-derived fuzzy prerequisite graphs.* Submitted to **Knowledge-Based Systems**.
 
-This repository and its Zenodo record hold only this manuscript. The manuscript's contributions are a unit-robust audit of thresholding (where to cut a log-derived fuzzy prerequisite graph) and an analysis of t-norm path composition (max-min, product and hop-penalised scores against hop count); both rest on a value-of-grades decomposition used as the measure (Algorithm 2, `fuzzykg/audit.py`, `scripts/fkg_audit.py`).
+This repository and its Zenodo record (concept DOI 10.5281/zenodo.24493167; release 6.0.1: 10.5281/zenodo.24493168) hold only this manuscript. The manuscript's contributions are a unit-robust audit of thresholding (where to cut a log-derived fuzzy prerequisite graph) and an analysis of t-norm path composition (max-min, product and hop-penalised scores against hop count); both rest on a value-of-grades decomposition used as the measure (Algorithm 2, `fuzzykg/audit.py`, `scripts/fkg_audit.py`).
 
 ## Scope and relation to ASOC-D-26-17250
 
@@ -376,7 +376,7 @@ tests/              pytest tests
 }
 ```
 
-Archived on Zenodo: https://doi.org/10.5281/zenodo.24492829 (all versions of this record; resolves to the latest). Version 6.0.0: https://doi.org/10.5281/zenodo.24492830. See also `CITATION.cff`.
+Archived on Zenodo: https://doi.org/10.5281/zenodo.24493167 (all versions of this record; resolves to the latest). Version 6.0.1 (same code and results as 6.0.0): https://doi.org/10.5281/zenodo.24493168. Release 6.0.0 itself was published before the Zenodo integration was switched on and has no Zenodo record. See also `CITATION.cff`.
 
 ## License
 
