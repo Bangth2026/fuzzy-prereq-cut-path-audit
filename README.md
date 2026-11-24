@@ -4,7 +4,7 @@ Code, derived graphs, result files and reproduction scripts of one manuscript:
 
 > Hai Bang Truong. *Where to threshold and how to compose: a unit-robust cut audit and a t-norm path analysis for log-derived fuzzy prerequisite graphs.* Submitted to **Knowledge-Based Systems**.
 
-This repository and its Zenodo record (concept DOI 10.5281/zenodo.24492829) hold only this manuscript. The manuscript's contributions are a unit-robust audit of thresholding (where to cut a log-derived fuzzy prerequisite graph) and an analysis of t-norm path composition (max-min, product and hop-penalised scores against hop count); both rest on a value-of-grades decomposition used as the measure (Algorithm 2, `fuzzykg/audit.py`, `scripts/fkg_audit.py`).
+This repository and its Zenodo record hold only this manuscript. The manuscript's contributions are a unit-robust audit of thresholding (where to cut a log-derived fuzzy prerequisite graph) and an analysis of t-norm path composition (max-min, product and hop-penalised scores against hop count); both rest on a value-of-grades decomposition used as the measure (Algorithm 2, `fuzzykg/audit.py`, `scripts/fkg_audit.py`).
 
 ## Scope and relation to ASOC-D-26-17250
 
@@ -24,6 +24,10 @@ The manuscript cites ASOC-D-26-17250 as the source of the adjacent-transition de
 ## Provenance
 
 The code was developed, up to release 5.4.1, in https://github.com/Bangth2026/fuzzy-kg-modularity, which also hosted the code of an unrelated knowledge-tracing study (its `kt/` directory, now in its own repository). Release 6.0.0 is the first release of this repository: it copies the files of this manuscript from fuzzy-kg-modularity 5.4.1 (commit ba37733) without `kt/` and changes no code or result. Earlier versions of this manuscript's code were archived under Zenodo concept 10.5281/zenodo.23689762; this repository starts a separate record. The release notes below keep their original version numbers.
+
+## What is in version 6.0.1
+
+No change to any code, result or data file of 6.0.0. The release exists so that the Zenodo GitHub integration, switched on after 6.0.0 was published, archives this repository; only version numbers in `.zenodo.json`, `CITATION.cff`, `pyproject.toml` and `fuzzykg/__init__.py` change.
 
 ## What is in version 6.0.0
 
