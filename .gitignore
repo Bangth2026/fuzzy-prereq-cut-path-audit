@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.egg-info/
+data/raw
+results/*_partial*.json
+data/graphs/ppi5k_edges.csv
+data/graphs/cn15k_edges.csv
+

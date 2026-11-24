@@ -1,0 +1,37 @@
+{
+  "title": "Where to threshold and how to compose: a unit-robust cut audit and a t-norm path analysis for log-derived fuzzy prerequisite graphs (code, results and run files)",
+  "version": "6.0.0",
+  "upload_type": "software",
+  "description": "Code, derived graphs, result files and reproduction scripts of the Knowledge-Based Systems manuscript 'Where to threshold and how to compose: a unit-robust cut audit and a t-norm path analysis for log-derived fuzzy prerequisite graphs' (H.B. Truong). This record holds only that manuscript; release 6.0.0 separates it from the shared repository fuzzy-kg-modularity, with no change to any code or result of release 5.4.1. A related manuscript by the same author (Applied Soft Computing, ASOC-D-26-17250, under review; archive 10.5281/zenodo.23074830) uses the same Junyi log, crowd-annotated pairs and adjacent transitions; this archive contains none of its code or data and does not compare graded with majority-vote weights. See README.",
+  "creators": [
+    {
+      "name": "Truong, Hai Bang",
+      "affiliation": "Saigon International University",
+      "orcid": "0000-0001-5094-3128"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "fuzzy knowledge graphs",
+    "prerequisite relations",
+    "thresholding",
+    "triangular norms",
+    "path composition",
+    "null models",
+    "community detection"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Bangth2026/fuzzy-prereq-cut-path-audit/tree/v6.0.0",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23074830",
+      "relation": "references",
+      "resource_type": "software",
+      "scheme": "doi"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "fuzzy-prereq-cut-path-audit: unit-robust cut audit and t-norm path analysis for log-derived fuzzy prerequisite graphs (code, results and run files)"
+version: 6.0.0
+date-released: 2026-11-24
+doi: 10.5281/zenodo.24492829
+repository-code: https://github.com/Bangth2026/fuzzy-prereq-cut-path-audit
+license: MIT
+authors:
+  - family-names: Truong
+    given-names: Hai Bang
+    orcid: https://orcid.org/0000-0001-5094-3128
+    affiliation: Saigon International University
+    email: truonghaibang@siu.edu.vn
+preferred-citation:
+  type: article
+  title: "Where to threshold and how to compose: a unit-robust cut audit and a t-norm path analysis for log-derived fuzzy prerequisite graphs"
+  journal: Knowledge-Based Systems
+  year: 2026
+  notes: submitted
+  authors:
+    - family-names: Truong
+      given-names: Hai Bang
+      orcid: https://orcid.org/0000-0001-5094-3128
