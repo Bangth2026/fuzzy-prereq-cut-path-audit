@@ -114,3 +114,6 @@ Scripts keep the name of the release that introduced them (prefix `v4_` to `v13_
 | `v15_simplex_real.py` | v15 | Unit-robust cut audit (Algorithm 1) on the 23 real graphs (Section 8.2). |
 | `v15_summarise.py` | v15 | Collects every number of the release 5.0.0 manuscript into results/v15/summary.json. |
 | `v15_value_paths.py` | v15 | Value of grades at three levels, connectivity level and hop-penalised score on the real graphs (Sections 8.1, 8.3). |
+| `v20_kbs.py` | v20 | Prerequisite recommendation with a cross-fitted crisp policy, bootstrap p-values with +1 correction, 999-draw partition permutation tests (Table 7a, Table 8). |
+| `v20_nextconcept.py` | v20 | Next-concept recommendation with thirteen candidates and Algorithm 2 run with steps 1 and 6 (Table 7b, Table S13b). |
+| `v20_partition.py` | v20 | Partition V_res with the row null drawn per seed triple on the ten graphs with a grouping (Table S4e). |

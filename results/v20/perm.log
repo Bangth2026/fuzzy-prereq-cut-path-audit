@@ -1,0 +1,2 @@
+junyi_transition {'observed': 0.6848924682118416, 'null_mean': 0.5965194704124731, 'null_max': 0.6887842716430363, 'n_ge_observed': 1, 'draws': 999, 'p': 0.002}
+ednet_copractice {'observed': 0.4666648724726988, 'null_mean': 0.19291610967209594, 'null_max': 0.39317476665991974, 'n_ge_observed': 0, 'draws': 999, 'p': 0.001}

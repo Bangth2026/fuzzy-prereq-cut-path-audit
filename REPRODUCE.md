@@ -39,10 +39,11 @@ Run times are wall-clock on one or two cores of a 2-core cloud machine; "-" wher
 | Section 8.1 (Junyi without suggested attempts, Table S4h) | `scripts/v18_partition.py unsuggested` | `results/v18/partition.json` | 10 min |
 | Table 5, Section 8.2 (robust decisions, external check) | `scripts/v16_real.py`, `scripts/v17_summarise.py` | `results/v17/summary.json` | - |
 | Table 6, Section 8.3 (paths) | `scripts/v15_value_paths.py`, `scripts/v15_crossdomain.py` | `results/v15/` | - |
-| Table 7, Section 8.4 (guide in use) | `scripts/v19_kbs.py` (next-concept inputs: `scripts/heldout_transitions.py`) | `results/v19/kbs.json`, `results/heldout_*.json` | 4 min |
-| Table 8, Section 8.5 (primary results) | `scripts/v19_kbs.py`, `scripts/v19_robust.py perm`, `scripts/v19_interior.py` | `results/v19/` | 5 min |
+| Table 7, Section 8.4 (guide in use) | `scripts/v20_kbs.py A C` (prerequisite recommendation), `scripts/v20_nextconcept.py` (next-concept, needs the raw ASSISTments and Junyi logs in `data/raw`) | `results/v20/kbs.json`, `results/v20/nextconcept.json` | 4 min + 5 min |
+| Table 8, Section 8.5 (primary results) | `scripts/v20_kbs.py`, `scripts/v19_robust.py perm` (edge and path rows), `scripts/v20_partition.py` | `results/v20/`, `results/v19/robust.json` | 5 min + 10 min, 2 cores |
+| Section 8.1, Table S4e (partition V_res per seed triple) | `scripts/v20_partition.py` | `results/v20/partition_triples.json` | 6 min, 2 cores |
 | Section 9.3 (noise, scale; Tables S13c, S13d), Table S4j | `scripts/v19_robust.py noise scaling features` | `results/v19/robust.json` | 15 min |
 | Figures 1 to 4 | `scripts/v16_figures.py`, `scripts/v15_figures.py` | `docs/v52_figure*` | - |
 
-Every new number of release 5.4.0 is collected in `results/v19/` (`misc.json`, `interior.json`,
+Every new number of release 6.1.0 is in `results/v20/` (`kbs.json`, `nextconcept.json`, `partition_triples.json`); every new number of release 5.4.0 is collected in `results/v19/` (`misc.json`, `interior.json`,
 `kbs.json`, `robust.json`); those of 5.3.0 in `results/v18/summary.json`.

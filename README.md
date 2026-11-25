@@ -25,6 +25,15 @@ The manuscript cites ASOC-D-26-17250 as the source of the adjacent-transition de
 
 The code was developed, up to release 5.4.1, in https://github.com/Bangth2026/fuzzy-kg-modularity, which also hosted the code of an unrelated knowledge-tracing study (its `kt/` directory, now in its own repository). Release 6.0.0 is the first release of this repository: it copies the files of this manuscript from fuzzy-kg-modularity 5.4.1 (commit ba37733) without `kt/` and changes no code or result. Earlier versions of this manuscript's code were archived under Zenodo concept 10.5281/zenodo.23689762; this repository starts a separate record. The release notes below keep their original version numbers.
 
+## What is in version 6.1.0
+
+Changes that answer the fifteenth review of the Knowledge-Based Systems manuscript; new results in `results/v20/`, mapped to the manuscript in `docs/paper_map_r15.md`. No earlier result file changes.
+
+- `scripts/v20_nextconcept.py` (Section 8.4, Table 7b, Supplementary Table S13b): next-concept recommendation on the eleven held-out graphs with thirteen candidates (hop distance, direct edge, hop-penalised score with λ chosen on validation learners, ten t-norm scores) and Algorithm 2 run with steps 1 and 6 (usable share u of the training graph; for u < 0.1 the direct edge or the hop-penalised score with 0 < λ < 1). Release 5.4.0 had evaluated selection on validation learners among hop distance and the t-norm scores, which is not Algorithm 2. Mean regret: Algorithm 2 0.0015, crisp 0.0057, graded 0.0104; on the two co-practice graphs with u < 0.1 Algorithm 2 trails hop count by 0.0026 and 0.0136, and row D6 of the decision guide is restricted to prerequisite queries.
+- `scripts/v20_kbs.py A C` (Table 7a, Table 8, Section S13): prerequisite recommendation with a crisp policy whose pruning threshold is chosen on half the targets (nDCG@3 0.914), splitting the gain of the guide over the crisp default into a threshold part (+0.035) and a grades part (+0.012); bootstrap p-values with the +1 correction, p = 2(1 + min(#≤0, #≥0))/(B + 1).
+- `scripts/v20_kbs.py P` (Table 8): row-permutation tests of the two partition rows with 999 draws (Junyi transition p = 0.002, EdNet co-practice p = 0.001).
+- `scripts/v20_partition.py` (Section 8.1, Supplementary Table S4e): V_res at the partition level on the ten graphs with a grouping, with the row null drawn and partitioned per seed triple.
+
 ## What is in version 6.0.1
 
 No change to any code, result or data file of 6.0.0. The release exists so that the Zenodo GitHub integration, switched on after 6.0.0 was published, archives this repository; only version numbers in `.zenodo.json`, `CITATION.cff`, `pyproject.toml` and `fuzzykg/__init__.py` change.
